@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: black;
+}
+
+body{
+    width: 100%;
+    color: white;
+    font-family: monospace;
+    font-size: 16px;
+    background: url(img/matrix2.png) repeat-y top right,
+                url(img/matrix.png) repeat-y top left;
+        
+}
+
+
+}
+@font-face {
+  font-family: 'monoton';
+  src: url('monoton.eot'); /* IE9 Compat Modes */
+  src: url('monoton.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/monoton.woff2') format('woff2'), /* Super Modern Browsers */
+       url('monoton.woff') format('woff'), /* Pretty Modern Browsers */
+       url('monoton.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('monoton.svg#svgFontName') format('svg'); 
+      font-weight: normal;
+  font-style: normal;
+    font-variant:normal;
+}
+h1{
+    font-family: 'monoton', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 20px;
+    color: #06C50A;
+    text-decoration: underline; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    padding-top: 20px;
+}
+#iconos{
+    font-size: 45px;
+    position: static;
+    color: #06C50A;
+    width: 890px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 40px;
+    border-bottom: 3px solid #06C50A;
+}
+  
+h2{
+    background-color: #06C50A;
+    color:white;
+}
+p{
+    margin-bottom: 10px;
+    padding: 4px 6px 4px 6px;
+    text-align: justify;
+    
+}
+/*Estilo de la imagen de la sección PONG*/
+#pong img{
+    border: 3px solid white;
+    outline: 3px solid #06C50A;
+    margin: 10px 6px 15px 6px;
+}
+/*Estilo de la imagen de la sección SPACE INVADERS*/
+#space img{
+    border: 3px solid white;
+    outline: 3px solid #06C50A;
+    margin: 10px 6px 15px 6px;
+}
+/*Estilo de la imagen de la sección PAC-MAN*/
+#pacman img{
+    border: 3px solid white;
+    outline: 3px solid #06C50A;
+    margin: 10px 6px 15px 6px;
+}
+/*Estilo de la imagen del margen izquierdo*/
+#matrix{
+    display: block;
+    width: 100px;
+    float: left;
+    margin: 0;
+    margin-right: 20px;
+    padding: 0;
+    border: none;
+}
+/*Estilo de la imagen del margen derecho*/
+#matrix_2{
+    display: block;
+    width: 100px;
+    float: right;
+    margin: 0;
+    padding: 0;
+    border: none;
+
+    
+}
+/*Sección PONG*/
+#pong{
+    align-content: center;
+    width: 1200px;
+    border: 2px solid white;
+    margin:0 auto;
+    margin-bottom: 40px;
+}
+/*Sección SPACE INVADERS*/
+#space{
+    align-content: center;
+    width: 1200px;
+    border: 2px solid white;
+    margin:0 auto; 
+    margin-bottom: 40px;    
+}
+/*Sección PAC-MAN*/
+#pacman{
+    align-content: center;
+    width: 1200px;
+    border: 2px solid white;
+    margin:0 auto;
+    margin-bottom: 40px;
+}
+
+footer{
+    margin: 0 auto;
+    width: 1200px;
+    border-bottom: solid #06C50A;
+    border-top: solid #06C50A;
+}
+.rojo{
+    color: red;
+}
+.amarillo{
+    color:yellow;
+}
+.verde{
+    color:  #06C50A;
+}

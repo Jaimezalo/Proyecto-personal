@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+  
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaime Zaloña</title>
+    <link rel="stylesheet" type="text/css" href="css/proyectoPersonal.css"> 
+    <!--favicom-->
+    <link rel="icon" type="image/png" href="imagenes/favicon32.jpg" sizes="32x32" />
+    <link rel="icon" type="image/png" href="imagenes/favicon16.jpg" sizes="16x16" />
+</head>
+    
+<body>
+	<header>
+		<img src="imagenes/logo.jpg">
+		<h1>Jaime Zaloña</h1>
+        <div id="jaime"><img src="imagenes/fotoJaime.jpg"></div>
+   <nav>
+	    <!-- Listado de Navegación -->
+        <ul class="menu">  
+            <li><a href="index.html">Inicio</a></li>  
+            <li><a href="misProyectos.html">Mis proyectos</a></li>  
+            <li><a href="misEstudios.html">Mis estudios</a></li>
+            <li><a href="misAficiones.html">Mis aficciones</a></li>
+            <li ><a href="contacto.html" style="color:hsl(59, 95%, 50%) ">&#10003; Contactar</a></li> 
+        </ul>  
+   </nav>
+</header>
+    <main>
+        <form method="post" action="contacto.html">
+            <table> 
+                <tr>
+                    <td colspan="2">
+                    
+                        <fieldset>
+                            <legend>Datos personales</legend>
+                            <table>
+                                <tr>   
+                                    <td>Nombre:</td>
+                                    <td><input type="text" maxlength="20" name="nombre" required></td>
+                                </tr>
+                                <tr>
+                                    <td>Apellidos:</td>
+                                    <td><input type="text" maxlength="40" name="apellidos" required></td>
+                                </tr>
+                                <tr>
+                                    <td>E-Mail:</td>
+                                    <td><input type="text" maxlength="40" name="email" value="@" required></td> 
+                                </tr>   
+                                <tr>
+                                    <td>Teléfono:</td>
+                                    <td><input type="tel" maxlength="9" name="telefono"></td> 
+                                </tr>  
+                                <tr>
+                                    <td>Deja tu mensaje:</td>
+                                
+                                    <td><textarea name="mensaje" cols="40" rows="5"></textarea></td>
+                                </tr>                    
+                            </table>
+                        </fieldset>                  
+                    </td>  
+                    
+                </tr>
+
+                    <!--Aceptar las condiciones-->
+                    <td colspan="4" style="font-size:.7em">  <input type="checkbox" name="condiciones" value="acepto" required>Acepto las condiciones especificadas en el <a href="condiciones.html" target="_blank">anexo</a></td>
+                </tr>
+                <tr>
+                    <!--Botones de enviar y borrar-->
+                    <td>&nbsp;</td>
+                    <td style="text-align:center">
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpiar"> 
+                    </td>
+                </tr>
+            </table>
+         </form>
+
+    </main>
+    
+    <footer>
+        <ul class="rrss">  
+            <li><a href="https://github.com/Jaimezalo" target="_blank"><img src="imagenes/github.jpg" alt="Mi GitHub" width="40" height="35"></a></li>  
+            <li><a href="https://www.linkedin.com/in/jaime-zalona-garcia/" target="_blank"><img src="imagenes/linkedin.jpg" alt="Mi Linkedin" width="40" height="35"></a></li>  
+            <li><a href="https://twitter.com/jaimezalogar" target="_blank"><img src="imagenes/twitter.jpg" alt="Mi Twitter" width="40" height="35"></a></li>
+            <li><a href="https://www.facebook.com/jzalonagarcia" target="_blank"><img src="imagenes/facebook.jpg" alt="Mi Facebook" width="40" height="35"></a></li>
+        </ul>  
+        <p>tlf: 638 126 845 / email: jaimezalo@gmail.com</p>
+    </footer>
+   
+</body>
+</html>

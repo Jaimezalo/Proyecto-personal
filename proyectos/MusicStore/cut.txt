@@ -1,0 +1,7 @@
+01; lunes; laborable;
+02; martes; laborable;
+03; miercoles; laborable;
+04; jueves; laborable;
+05; viernes; laborable;
+06; sabado; no laborable;
+07; domingo; no laborable;
